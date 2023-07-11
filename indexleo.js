@@ -56,6 +56,6 @@ app.get('/game-results', (req, res) => {
   res.json({ results: `[` + buffer + `]`});
 });
 
-app.listen(3004, () => {
-  console.log('App ouvindo na porta 3004');
+app.listen(3013, () => {
+  console.log('App ouvindo na porta 3013');
 });
