@@ -52,10 +52,10 @@ setInterval(() => {
   });
 }, 3000);  // Executa a cada 3 segundos
 
-app.get('/game-results', (req, res) => {
+app.get('/aleat-results', (req, res) => {
   res.json({ results: `[` + buffer + `]`});
 });
 
-app.listen(3013, () => {
+app.listen(3018, () => {
   console.log('App ouvindo na porta 3013');
 });
